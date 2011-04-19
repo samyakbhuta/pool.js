@@ -12,16 +12,12 @@ var showSize = function (size){
 	console.log(size);
 }
 
-var myArray = ["a","b","c"];
-myArray["aaa"] = "aaa";
-pool.addKeyValue("Samyak","Bhuta",addedKeyValue);
-pool.addKeyValue("Biswa","Mahanto",addedKeyValue);
-pool.addKeyValue("Kunal","Jha",addedKeyValue);
-pool.addKeyValue("Kiran","Bajaj",addedKeyValue);
+pool.addKeyValue("A","Apple",addedKeyValue);
+pool.addKeyValue("B","Banana",addedKeyValue);
+pool.addKeyValue("O","Orange",addedKeyValue);
+pool.addKeyValue("K","Kiwi",addedKeyValue);
 pool.size(showSize);
-//pool.addKeyValue("Kiran","Bhuta",addedKeyValue);
-pool.size(showSize);
-pool.fetchValue("Kiran",showValue)
+pool.fetchValue("K",showValue)
 pool.enumerate();
 
 myData = pool.getPool();
