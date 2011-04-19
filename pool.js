@@ -1,6 +1,6 @@
 /*
 A simple key/value pair storage known as "pool", with expected methods. It is nothing more than a way to explore node.js. 
-If you follow this you will learn
+If you follow this you should learn
 * How to include  foo.js file (possibly a library) into bar.js (possibly an application file)
 * How to expose some parts of foo.js (data variables as well as functions ) into bar.js
 * Creating a module
@@ -14,6 +14,7 @@ If you follow this you will learn
 
 //TODO : Create NPM package for foo.js
 //TODO : Unit testing with shoulda.js
+//TODO : More package.json stuff. Probably, best reference would be https://github.com/isaacs/npm/blob/master/package.json
 
 data = {};
 
@@ -47,7 +48,7 @@ exports.getPool = function (filename,callback) {
 exports.enumerate = function(){
 	for ( key in data ){ 
 
-		console.log("<"+key + "|" +data[key]+">" );
+		console.log("<" + key + "|" + data[key] + ">" );
 	}
 }
 
