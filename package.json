@@ -1,0 +1,23 @@
+{
+  "name": "pool",
+  "description": "The key/value storage module for node.js.",
+  "keywords": [
+    "database db store storage listing pool key value associative array"
+  ],
+  "version": "0.0.1-1-alpha",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:samyakbhuta/pool.js.git"
+  },
+  "author": "Samyak Bhuta <samyak.bhuta@gmail.com> (in.linkedin.com/in/samyakbhuta)",
+  "directories": {
+    "lib": ".",
+    "example": "app.js",
+    "doc": "README.md"
+  },
+  "engines": {
+    "node": ">=0.1.27"
+  },
+  "homepage": "https://github.com/samyakbhuta/pool.js",
+  "main": "pool"
+}
