@@ -62,10 +62,7 @@ Listing down all the key/value pairs in pool.
 */
 pool.enumerate();
 /*
-Get the pool for direct access to it./* 
-var pool = require("pool");
-Will work if you have already install using 'npm install pool'
-*/
+Get the pool for direct access to it.
 */
 myData = pool.getPool();
 
