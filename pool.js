@@ -47,6 +47,10 @@ exports.getPool = function (filename,callback) {
 exports.enumerate = function(){
 	for ( key in data ){ 
 
-		console.log("{"+key + ":" +data[key]+"}" );
+		console.log("<"+key + "|" +data[key]+">" );
 	}
+}
+
+exports.foo = function(){
+	console.log("Foo");
 }
